@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ChatApp"
+include ':app'
+include ':common'
+include ':common:base'
+include ':common:model'
+include ':common:util'
+include ':feature'
+include ':core'
+include ':common:resource'
+include ':core:data'
+include ':core:service'

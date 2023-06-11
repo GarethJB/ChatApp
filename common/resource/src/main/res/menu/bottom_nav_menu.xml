@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btm_item_member"
+        android:icon="@drawable/menu_selector_member"
+        android:enabled="true"
+        android:title="친구 목록"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/btm_item_chat"
+        android:icon="@drawable/menu_selector_chat"
+        android:enabled="true"
+        android:title="채팅 목록"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/btm_item_live"
+        android:icon="@drawable/menu_selector_live"
+        android:enabled="true"
+        android:title="라이브 채팅"
+        app:showAsAction="ifRoom"/>
+</menu>
