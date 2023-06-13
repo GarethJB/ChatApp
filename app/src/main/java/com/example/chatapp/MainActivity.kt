@@ -16,7 +16,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
     private fun addHomeFragment() {
         homeFragment = HomeFragment()
-
     }
 
 

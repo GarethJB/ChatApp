@@ -4,6 +4,7 @@ import com.google.firebase.database.FirebaseDatabase
 
 object FirebaseDatabase {
 
-    val database = FirebaseDatabase.getInstance()
-
+    init {
+        val database = FirebaseDatabase.getInstance()
+    }
 }

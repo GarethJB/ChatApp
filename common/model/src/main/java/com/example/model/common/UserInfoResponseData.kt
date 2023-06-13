@@ -1,6 +1,6 @@
-package com.example.model
+package com.example.model.common
 
-data class UserInfoData(
+data class UserInfoResponseData(
     var memNo: Int = 0,
     val memNick: String,
     val profileImg: String,
