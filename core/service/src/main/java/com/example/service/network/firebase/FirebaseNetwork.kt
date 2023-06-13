@@ -19,12 +19,13 @@ class FirebaseNetwork @Inject constructor(
 
         val reference = map["reference"] as String
         val child = map["child"] as String
-        val orderByChild = map["orderByChild"] as String
+        val equalTo = map["equalTo"] as String
+        //val orderByChild = map["orderByChild"] as String
 
         database
             .getReference(reference)
             .child(child)
-            .orderByChild(orderByChild)
+            .equalTo(equalTo)
             .addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     trySend(snapshot)

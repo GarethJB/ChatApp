@@ -1,9 +1,9 @@
-package com.example.service.datasource.common
+package com.example.data.repository.common
 
 import com.example.model.common.UserInfoResponseData
 import kotlinx.coroutines.flow.Flow
 
-interface CommonDataSource {
+interface CommonRepository {
 
     fun getUserInfo(map: Map<String, String>): Flow<UserInfoResponseData>
 

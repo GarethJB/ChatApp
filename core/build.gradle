@@ -41,5 +41,7 @@ dependencies {
 
     implementation(project(":common"))
     implementation(project(":common:model"))
+    implementation(project(":core:data"))
+    implementation(project(":core:service"))
 
 }
